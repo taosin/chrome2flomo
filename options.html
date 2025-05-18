@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Chrome to Flomo 配置</title>
-        <style>
+  <head>
+    <meta charset="UTF-8">
+    <title>Chrome to Flomo 配置</title>
+    <style>
     body {
       width: 100%;
       max-width: 800px;
@@ -94,33 +94,36 @@
       color: #a94442;
     }
   </style>
-    </head>
-    <body>
-        <div class="container">
-            <div class="section">
-                <h2>API 设置</h2>
-                <div class="form-group">
-                    <label for="apiKey">Flomo API Key</label>
-                    <input type="password" id="apiKey"
-                        placeholder="在此输入 API Key">
-                </div>
-            </div>
-
-            <div class="section">
-                <h2>标签设置</h2>
-                <div class="form-group">
-                    <label for="newTag">添加新标签</label>
-                    <div style="display: flex; gap: 8px;">
-                        <input type="text" id="newTag" placeholder="输入标签名称">
-                        <button id="addTag">添加</button>
-                    </div>
-                </div>
-                <div id="tagList" class="tag-container"></div>
-            </div>
-
-            <button id="save">保存所有设置</button>
-            <div id="status" class="status"></div>
+  </head>
+  <body>
+    <div class="container">
+      <div class="section">
+        <h2>API 设置</h2>
+        <div class="form-group">
+          <p>查看你的API KEY：<a
+              href="https://v.flomoapp.com/mine/?source=incoming_webhook"
+              target="_blank">点击这里</a></p>
+          <label for="apiKey">Flomo API Key</label>
+          <input type="password" id="apiKey"
+            placeholder="在此输入 API Key">
         </div>
-        <script src="options.js"></script>
-    </body>
+      </div>
+
+      <div class="section">
+        <h2>标签设置</h2>
+        <div class="form-group">
+          <label for="newTag">添加新标签</label>
+          <div style="display: flex; gap: 8px;">
+            <input type="text" id="newTag" placeholder="输入标签名称">
+            <button id="addTag">添加</button>
+          </div>
+        </div>
+        <div id="tagList" class="tag-container"></div>
+      </div>
+
+      <button id="save">保存所有设置</button>
+      <div id="status" class="status"></div>
+    </div>
+    <script src="options.js"></script>
+  </body>
 </html>
