@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Chrome to Flomo",
-  "version": "1.0",
+  "version": "1.0.1",
   "description": "将选中的内容保存到 Flomo",
   "permissions": ["contextMenus", "storage", "activeTab", "notifications"],
   "background": {
