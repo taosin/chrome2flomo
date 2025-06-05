@@ -1,5 +1,7 @@
 # Chrome to Flomo
 
+你可以在 [Chrome 插件商店](https://chromewebstore.google.com/detail/nenahpianlekkkkmgfncidogdnfhglci?utm_source=item-share-cb) 中安装它。
+
 一个简单易用的 Chrome 扩展，帮助您快速将网页内容保存到 Flomo。
 
 ## 功能特点
